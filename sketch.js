@@ -10,7 +10,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(random(0,0));
   if (g1.distancia < 10) {
     circle(width / 2, height /2, 200);
   } else {

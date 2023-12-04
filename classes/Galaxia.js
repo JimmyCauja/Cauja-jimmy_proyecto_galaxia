@@ -13,7 +13,7 @@ class Particula {
   
     display() {
     noStroke();
-    fill(255,118,100, this.alpha);
+    fill(255,118,10,200, this.alpha);
     ellipse(this.pos.x, this.pos.y, random(1,10),random(1,10));
         
     }
@@ -70,11 +70,11 @@ class Galaxia {
             this.destellos[i].display();
         }
 
-        if (frameCount % 5 === 0) {
+        if (frameCount % 4 === 0) {
             this.destellos.push(new Particula(random(-50, 50), random(-50, 50)));
         }
 
-            ellipse(0, 0, 100, random(1,25));
+            ellipse(0, 0, 100, random(1,20));
             pop();
             fill(0, 1, 255);
             noStroke();
