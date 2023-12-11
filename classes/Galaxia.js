@@ -29,7 +29,7 @@ class Galaxia {
         this.angle = 0;
         this.sentido = random() < 0.5 ? true : false;
 
-        this.centro = createVector(width / 2, height / 2);
+        this.centro = createVector(0.0, 0.0);
         this.distancia = this.pos.dist(this.centro);
 
         this.interpolador = 0.01;
