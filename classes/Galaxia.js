@@ -51,7 +51,7 @@ class Galaxia {
         }
         this.distancia = this.pos.dist(this.centro);
         
-        //particulas
+        //destellos particulas
 
         for (let i = this.destellos.length - 1; i >= 0; i--) {
             this.destellos[i].update();
